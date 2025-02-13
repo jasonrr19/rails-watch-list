@@ -21,7 +21,7 @@
 </div> %>
 
 <div class="container">
-<h1><%= @list.name %></h1>
+  <h1><%= @list.name %></h1>
   <div class="cards">
     <% @list.bookmarks.each do |bookmark| %>
       <div class="card-product">
@@ -29,11 +29,13 @@
         <div class="card-product-infos">
           <%= bookmark.movie.title %>
           <%= bookmark.comment %>
+          <%= link_to bookmark_path(bookmark), data: { turbo_method: :delete, turbo_confirm: 'Are you sure?' }, class: 'card-link card-remove-link' do %>
+          <i class="fa-solid fa-cross"></i>
+          <% end %>
         </div>
       </div>
-      </div>
-    <% end %>
   </div>
+    <% end %>
+    <%= link_to "Add a movie", new_list_bookmark_path(@list), class: "btn btn-ghost" %>
+    <%= link_to "All Lists", lists_path, class: "btn btn-ghost" %>
 </div>
-
-<%= link_to "All Lists", lists_path, class: "btn btn-ghost" %>

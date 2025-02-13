@@ -10,7 +10,9 @@ Rails.application.routes.draw do
     end
 
   resources :bookmarks, only: [:destroy]
-
+  #bookmarks? need a list/listid/bookmark,? new i add a movie to a list by creating a bookmark
+#bookmark page add a movie?f.association :movie, collection: @movies, inlude_blank :false
+#@movies = Movie.order(name: :asc)movie id only in strong params,create bookmark needs movie as list as well.
   # Defines the root path route ("/")
   # root "posts#index"
 end
