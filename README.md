@@ -51,9 +51,6 @@ Inspired by my love for films of all genres and my desire to share that love wit
 
 ## Team Members
 - Jason R. Rocha(https://www.linkedin.com/in/jason-rocha-37188a150/)
-- Aditya Karkera
-- Rafaela Yazawa
-- Christopher Diaz
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
