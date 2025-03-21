@@ -1,6 +1,6 @@
 # 📚 Cinema List Derby
 
-Movie lovers rejoice! An application for collecting your favorite movies into lists that you can share with your fellow afficionados!
+Movie lovers rejoice! An application for collecting your favorite movies into lists that you can share with your fellow aficionados!
 ![cinemalistderby home](https://github.com/user-attachments/assets/5df788f6-b270-4af6-9251-a2957fb1f4b6)
 ![cinemalistderby listpage](https://github.com/user-attachments/assets/c6d15bfa-97b6-44fd-b4f9-e4da8839ecea)
 
