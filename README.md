@@ -1,24 +1,59 @@
-# README
+# 📚 Cinema List Derby
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Movie lovers rejoice! An application for collecting your favorite movies into lists that you can share with your fellow aficionados!
+![cinemalistderby home](https://github.com/user-attachments/assets/5df788f6-b270-4af6-9251-a2957fb1f4b6)
+![cinemalistderby listpage](https://github.com/user-attachments/assets/c6d15bfa-97b6-44fd-b4f9-e4da8839ecea)
 
-Things you may want to cover:
+<br>
+App home: https://watch-list-jasonrr19-8fb5ee226f7e.herokuapp.com/lists
+   
 
-* Ruby version
+## Getting Started
+### Setup
 
-* System dependencies
+Install gems
+```
+bundle install
+```
 
-* Configuration
+### ENV Variables
+Create `.env` file
+```
+touch .env
+```
+Inside `.env`, set these variables. For any APIs, see group Slack channel.
+```
+CLOUDINARY_URL=your_own_cloudinary_url_key
+```
 
-* Database creation
+### DB Setup
+```
+rails db:create
+rails db:migrate
+rails db:seed
+```
 
-* Database initialization
+### Run a server
+```
+rails s
+```
 
-* How to run the test suite
+## Built With
+- [Rails 7](https://guides.rubyonrails.org/) - Backend / Front-end
+- [Stimulus JS](https://stimulus.hotwired.dev/) - Front-end JS
+- [Heroku](https://heroku.com/) - Deployment
+- [PostgreSQL](https://www.postgresql.org/) - Database
+- [Bootstrap](https://getbootstrap.com/) — Styling
+- [Figma](https://www.figma.com) — Prototyping
 
-* Services (job queues, cache servers, search engines, etc.)
+## Acknowledgements
+Inspired by my love for films of all genres and my desire to share that love with others, no matter their preferences, to introduce them to something they may enjoy and remember.
 
-* Deployment instructions
+## Team Members
+- Jason R. Rocha(https://www.linkedin.com/in/jason-rocha-37188a150/)
 
-* ...
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+This project is licensed under the MIT License
