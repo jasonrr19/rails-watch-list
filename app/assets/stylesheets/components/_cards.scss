@@ -1,7 +1,7 @@
 .card-category {
   background-size: cover;
   background-position: center;
-  height: 304px;
+  height: 368px; // original was 368px the hm pg images are changing as well. //
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,6 +15,7 @@
 
 .repeat-image {
   background-size: contain;
+  height: 304px;
 }
 
 .card-category a {
